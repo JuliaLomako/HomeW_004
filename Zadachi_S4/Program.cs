@@ -36,3 +36,17 @@ else Console.WriteLine($"сумма цифр в числе {numZ} равна {Nu
 
 
 //Задача 3: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+
+void ArrayNum()
+{
+    int[] massiv = new int[8];
+    for (int i = 0; i < 8; i++)
+    {
+        massiv[i] = new Random().Next(1, 9);
+        Console.Write(massiv[i] + " ");
+    }
+
+}
+
+ArrayNum();
